@@ -1,0 +1,23 @@
+# Secret Keys - NEVER push
+.env
+.env.local
+
+# Virtual Environment - too large (24,000+ files remember?)
+venv/
+env/
+.venv/
+
+# Python cache - auto generated
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
